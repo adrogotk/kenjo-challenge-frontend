@@ -11,11 +11,15 @@
   </mat-form-field>
   <mat-form-field>
     <mat-label>Year</mat-label>
-    <input matInput name="artist" [(ngModel)]="album.year" type="text">
+    <input matInput name="year" [(ngModel)]="album.year" type="text">
   </mat-form-field>
   <mat-form-field>
     <mat-label>Artist</mat-label>
     <input matInput name="artist" [(ngModel)]="album.artist" type="text">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Score</mat-label>
+    <input matInput name="score" [(ngModel)]="album.score" type="text">
   </mat-form-field>
     <div class="album-actions">
     <button class="confirm-button" mat-raised-button mat-dialog-close (click)="createNewAlbum(album)">Confirm</button>
