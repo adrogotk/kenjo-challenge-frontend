@@ -11,7 +11,8 @@ export class NewAlbumDialog implements OnInit {
     title: '',
     year: 1900,
     artist: '',
-    photoUrl: ''
+    photoUrl: '',
+    score: 1
   };
 
   constructor(private http: HttpClient) { }
